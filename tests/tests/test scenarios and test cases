@@ -1,0 +1,31 @@
+ Tech Stack
+- Testing Tool:** Selenium WebDriver
+- Language:** Python
+- Framework:** Pytest
+
+Installation & Setup
+ Prerequisites
+Ensure you have the following installed:
+- Python (version 3.7 or later)
+- Google Chrome Browser
+- ChromeDriver (matching your Chrome version)
+
+Test Cases
+ 1. Login Page
+- Verify successful login with valid credentials.
+- Verify error message for invalid credentials.
+- Validate UI elements (username, password fields, login button).
+
+2. Home Page
+- Check if the todos list is displayed.
+- Verify the navigation to the cost calculator.
+
+3. Cost Calculator for Blood Test
+- Select different blood tests and check cost calculation.
+- Apply discount and verify the final cost.
+- Ensure edge cases like selecting no test, invalid discount codes are handled.
+
+4. Adding Patients & Creating Tests
+- Verify patient details form submission.
+- Check if newly added tests appear in the todos list.
+- Validate mandatory field errors.
